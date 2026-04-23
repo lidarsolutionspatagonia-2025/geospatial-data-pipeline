@@ -1,13 +1,20 @@
 # Geospatial Data Processing Pipeline
 
-Pipeline simple de procesamiento geoespacial con Python.
+Simple geospatial data processing pipeline built with Python and GeoPandas.
 
-## Pasos
-- Lectura de shapefile
-- Reproyección a WGS84
-- Cálculo de área
-- Exportación a GeoJSON
-- ## Tech Stack
+## Overview
+
+This project demonstrates a reproducible workflow for processing vector geospatial data, including coordinate system transformation, geometry processing, and output generation for downstream applications.
+
+## Pipeline Steps
+
+- Shapefile ingestion
+- CRS transformation to WGS84 (EPSG:4326)
+- Geometry processing
+- Area calculation
+- Export to GeoJSON
+
+## Tech Stack
 
 - Python (GeoPandas)
 - Docker
@@ -15,4 +22,4 @@ Pipeline simple de procesamiento geoespacial con Python.
 
 ## Output
 
-The pipeline generates a GeoJSON file ready for web mapping and analytics applications.
+The pipeline generates a GeoJSON file ready for web mapping and geospatial analytics applications.
