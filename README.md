@@ -30,21 +30,3 @@ The pipeline generates a GeoJSON file ready for web mapping and geospatial analy
 pip install -r requirements.txt
 cd scripts
 python process_data.py
-
----
-
-# 🧠 Cómo saber si quedó bien
-
-En GitHub:
-
-- Vas a ver los comandos dentro de un **bloque gris**
-- Con formato tipo código
-
-Si ves todo como texto plano → está mal cerrado
-
----
-
-# 🔴 Error típico
-
-Esto rompe todo:
-comandos
