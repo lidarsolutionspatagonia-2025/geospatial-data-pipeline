@@ -23,3 +23,10 @@ This project demonstrates a reproducible workflow for processing vector geospati
 ## Output
 
 The pipeline generates a GeoJSON file ready for web mapping and geospatial analytics applications.
+
+## How to Run
+
+```bash
+pip install -r requirements.txt
+cd scripts
+python process_data.py
