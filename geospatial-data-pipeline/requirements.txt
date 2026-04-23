@@ -1,4 +1,0 @@
-geopandas
-shapely
-fiona
-pyproj
